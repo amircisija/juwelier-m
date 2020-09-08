@@ -1,12 +1,12 @@
 <template>
   <section class="hero__section">
-    <b-jumbotron>
-      <b-container>
-        <b-row>
-          <b-col cols="6">
+    <b-jumbotron class="mb-0">
+      <b-container class="h-100">
+        <b-row class="h-100">
+          <b-col cols="6" class="text-center my-auto mx-auto">
+            <span>Goldankauf Schmuckverkauf Reparaturen</span>
             <h1>Juwerlier Melis</h1>
-            <p>For more information visit website</p>
-            <b-button variant="primary" href="#">More Info</b-button>
+            <b-button variant="primary" href="#">Mehr erfahren</b-button>
           </b-col>
         </b-row>
       </b-container>
@@ -15,6 +15,8 @@
 </template>
 <style lang="scss">
 .jumbotron {
-  height: 60vh;
+  height: 70vh;
+  background: url("../assets/hero_img_1.jpg") 50% 50% no-repeat;
+  background-size: cover;
 }
 </style>
