@@ -14,8 +14,8 @@
 export default {};
 </script>
 <style lang="scss">
-.main__wrapper {
-  padding-bottom: 200px;
+body {
+  font-family: "Roboto", sans-serif;
 }
 h1,
 h2,
